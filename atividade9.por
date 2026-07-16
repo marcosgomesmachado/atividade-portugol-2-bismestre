@@ -31,7 +31,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numeros[100], cont, maiorNumero = 0, menorNumero = 0, soma = 0
+		inteiro numeros[1000], cont, maiorNumero = 0, menorNumero = 0, soma = 0
 		
 		escreva("Informe quantos números você quer digitar: ")
 		leia(cont)
