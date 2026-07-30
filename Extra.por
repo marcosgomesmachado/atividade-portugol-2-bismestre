@@ -160,11 +160,11 @@ programa
 				escreva("\nA sua segunda nota é: ", nota2[i])
 				escreva("\nA sua média é: ", media[i])
 				encontrou = verdadeiro
-			} se (encontrou == falso) {
-				escreva("\nAluno não encontrado")
 			}
 		}
-		
+		se (encontrou == falso) {
+			escreva("\nAluno não encontrado")
+		}
 	}
 
 	funcao resultados(inteiro quantidade, real nota1[], real nota2[],cadeia nomes[], real media[], cadeia nome_maior_media, real maior_media, cadeia nome_menor_media, real menor_media, inteiro aprovado, inteiro reprovado, real media_turma, inteiro aluno_maior_media_idade){
